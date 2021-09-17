@@ -1,0 +1,36 @@
+# POST http://localhost:3000/api/wilder/create HTTP/1.1
+# content-type: application/json
+
+# {
+#     "name" : "laura3",
+#     "city" : "saint-denis",
+#     "skills" :[
+#         { "title" : "lire à l'envers", "vote": 10},
+#         {"title" : "bouger mes oreilles", "vote": 10}
+#     ]
+# }
+
+
+# GET http://localhost:3000/api/wilder/read HTTP/1.1
+
+
+
+# DELETE http://localhost:3000/api/wilder/delete HTTP/1.1
+
+# {
+#        "_id": "6143023806a6016dd67b2552"
+# }
+
+
+# PUT http://localhost:3000/api/wilder/update HTTP/1.1
+# content-type:application/json
+
+# {
+#       "_id": "6141fdcfa01b8c54fbb752f8",
+#       "name" : "bastien4",
+#       "city" : "lille7",
+#       "skills" :[
+#         { "title" : "yoga", "vote": 10},
+#         {"title" : "bd", "vote": 10}
+#     ]
+# }
